@@ -14,14 +14,14 @@
       <header id="header">
         <h3>THE GREAT</h3>
         <h1 id="color-pick"></h1>
-        <h3>GUESSING GAME</h3>
+        <h3>COLOR GAME</h3>
       </header>
       <div class="options">
-        <div id="new-game">New Game</div>
+        <div id="new-game" onclick="newGame()">New Game</div>
         <div id="status"></div>
         <div>
-          <span id="easy">Easy</span>
-          <span id="hard">Hard</span>
+          <span id="easy" onclick="initialConf(3)">Easy</span>
+          <span id="hard" onclick="initialConf(6)">Hard</span>
         </div>
       </div>
       <div id="game-grid">
